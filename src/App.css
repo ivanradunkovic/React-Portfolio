@@ -42,3 +42,16 @@ flex:var(--sidebar-flex);
 background: #DAA520;
 background: linear-gradient(180deg, rgba #F0FFF0 50%, rgba #E6E6FA 80%);
 }
+
+navitem
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  margin:40px;
+}
