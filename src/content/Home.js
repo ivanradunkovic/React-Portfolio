@@ -4,6 +4,7 @@ import profilepic from '../image/ir.png';
 import Social from '../components/Social'
 
 class Home extends Component {
+    
     render() {
         return (
             <div className="condiv home">
