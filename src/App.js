@@ -6,6 +6,7 @@ import Home from './content/Home';
 import About from './content/About';
 import Education from './content/Education';
 import Skills from './content/Skills';
+import Contact from './content/Contact';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Route path="/skills">
         <Skills />
         </Route>
+        <Route exact path="/contact">
+        <Contact />
+        </Route>
+
       </div>
     </Router>
     );
