@@ -4,6 +4,7 @@ import{ BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './content/Home';
 import About from './content/About'
+import Education from './content/Education'
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
         </Route>
         <Route path="/about">
         <About />
-        </Route>  
+        </Route>
+        <Route path="/education">
+        <Education />
+        </Route>
       </div>
     </Router>
     );

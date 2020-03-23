@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
 class EducationDetails extends Component {
+
     render() {
         return (
             <div class="educationDetails">
             <div class="compdet">
-                <h3>{this.props.title}</h3>
-                    <h4 class="secondtext">{this.props.where}</h4>
-                    <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
+            <h3>{this.props.title}</h3>
+            <h4 class="secondtext">{this.props.where}</h4>
+            <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
             </div>
             </div>
             )
@@ -15,4 +16,3 @@ class EducationDetails extends Component {
     }
     
 export default EducationDetails
-    
