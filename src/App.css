@@ -26,10 +26,10 @@ body{
 
 nav
 {
-  padding:60px 30px 0px 30px ;
-  flex:var(--sidebar-flex);
-  background: rgb(255,85,150);
-  background: linear-gradient(150deg, rgba(150,180,150,1) 50%, rgba(125,115,250,1) 80%);
+  padding:100px 0px 0px 5px ;
+  flex: 50px;
+  background: rgb(255, 85, 85);
+  background: linear-gradient(150deg, rgba(85,120,140,1) 50%, rgba(85,120,160,1) 70%);
 }
 
 .condiv
@@ -50,8 +50,8 @@ nav
 .profilepic
 
 {
-  border-radius: 75%;
-  width: 400px;
+  border-radius: 0%;
+  width: 350px;
   margin: 50px;
 }
 .typingeffect
@@ -71,7 +71,7 @@ nav ul{
 
 nav ul li
 {
-  margin:35px;
+  margin:20px;
 }
 
 a
@@ -79,4 +79,15 @@ a
   text-decoration: none;
   color: white;
   text-decoration: solid;
+}
+
+.subtopic
+{
+  margin:10px 10px 30px 10px !important;
+}
+p{
+  font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p{
+  margin: 10px;
 }
