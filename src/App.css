@@ -1,80 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
-
 :root{
---sidebar-flex:1.5;
---condiv-flex:5;
---fontsize-p:1.5rem;
---fontsize-nav:1.5rem;
---typing-font:5rem;
+  --sidebar-flex:1.5;
+  --condiv-flex:5;
+  --fontsize-p:1.5rem;
+  --fontsize-nav:1.5rem;
+  --typing-font:2rem;
 }
 
 *
 {
-margin:0;
-padding: 0;
+  margin:0;
+  padding: 0;
 }
 
-body
-{
-font-family: 'Raleway';
+body{
+  font-family: 'Raleway';
 }
 
 .App
 {
-display: flex;
-width: 100vw;
-min-height: 100vh;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
 }
 
-/* .condiv class is for the right side content container*/
+nav
+{
+  padding:60px 30px 0px 30px ;
+  flex:var(--sidebar-flex);
+  background: rgb(255,85,150);
+  background: linear-gradient(150deg, rgba(150,180,150,1) 50%, rgba(125,115,250,1) 80%);
+}
 
 .condiv
 {
-padding: 100px ;
-background-color: #f4f5f9;
-flex:var(--condiv-flex);
+  padding: 100px ;
+  background-color: #f4f5f9;
+  flex:var(--condiv-flex);
 }
 
-navbar
+.home
 {
-padding:60px 30px 0px 30px ;
-flex:var(--sidebar-flex);
-background: #DAA520;
-background: linear-gradient(180deg, rgba #F0FFF0 50%, rgba #E6E6FA 80%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.profilepic
+
+{
+  border-radius: 75%;
+  width: 400px;
+  margin: 50px;
+}
+.typingeffect
+
+{
+  font-size: var(--typing-font);
+  margin-bottom: 25px;
 }
 
-navitem
-{
+nav ul{
   font-size:var(--fontsize-nav) ;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
   color: white !important;
 }
+
 nav ul li
 {
-  margin:40px;
-}
-/* css for active class */
-.active
-{
-font-weight: bolder;
+  margin:35px;
 }
 
-.social
+a
 {
-position: absolute;
-margin-top: 20px;
-display: flex;
-bottom: 60px;
-}
-.social i
-{
-padding-right: 30px;
-font-size: 25px;
-color: #9a9b9c;
-}
-.social i:hover
-{
-color: #ffffff;
+  text-decoration: none;
+  color: white;
+  text-decoration: solid;
 }
