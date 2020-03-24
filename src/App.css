@@ -29,13 +29,13 @@ nav
   padding:100px 0px 0px 5px ;
   flex: 50px;
   background: rgb(255, 85, 85);
-  background: linear-gradient(150deg, rgba(85,120,140,1) 50%, rgba(85,120,160,1) 70%);
+  background: linear-gradient(150deg, rgb(112,128,144) 50%, rgb(128,128,128) 70%);
 }
 
 .condiv
 {
   padding: 100px ;
-  background-color: #f4f5f9;
+  background-color :#F5FFFA;
   flex:var(--condiv-flex);
 }
 
@@ -50,8 +50,8 @@ nav
 .profilepic
 
 {
-  border-radius: 0%;
-  width: 550px;
+  border-radius: 50%;
+  width: 500px;
   margin: 50px;
 }
 .typingeffect
@@ -110,7 +110,7 @@ h1,h2,h3,h4,p{
 }
 .social i:hover
 {
-  color: #ffffff;
+  color: #87CEEB;
 }
 
 .educationDetails
